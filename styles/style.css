@@ -1,0 +1,135 @@
+ body{
+ 	background-color: #808080;
+ }
+
+  
+
+/* Container Properties */
+.container{
+	color: #808080;
+	width: 955px;
+	height: 770px;
+	margin: 0 auto;
+	display: block;
+	background-color: #FAFAFA;
+}
+
+.container h1{
+	text-align: center;
+	font-size: 50px;
+	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+}
+
+/* Flag show Properties */
+.flagshow{
+	background: url("../images/nigeria.gif");
+	background-repeat: no-repeat;
+	background-size: 250px 130px;
+	height: 130px;
+	width: 250px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+/*Counter display*/
+.qcount{
+	display: block;
+	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+.choice{
+	
+	height: 270px;
+}
+/*CHOICE BUTTON PROPERTIES*/
+
+.choicebutton {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 10px;
+   border-top: 1px solid #c6d5de;
+   background: #fcf7fb;
+   background: -webkit-gradient(linear, left top, left bottom, from(#585c5e), to(#fcf7fb));
+   background: -webkit-linear-gradient(top, #585c5e, #fcf7fb);
+   background: -moz-linear-gradient(top, #585c5e, #fcf7fb);
+   background: -ms-linear-gradient(top, #585c5e, #fcf7fb);
+   background: -o-linear-gradient(top, #585c5e, #fcf7fb);
+   padding: 10px 20px;
+   -webkit-border-radius: 7px;
+   -moz-border-radius: 7px;
+   border-radius: 7px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 17px;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   width: 250px;
+   }
+
+   /* FORMAT FOR SUBMIT, NEW GAME, SCORE, NEW QUESTION AND HIGHLIGHT*/
+
+.clickbutton,.submitbutton, .genbutton, .gamebutton, .scorebutton {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 10px;
+   border-top: 1px solid #c6d5de;
+   background: #e8e9ed;
+   background: -webkit-gradient(linear, left top, left bottom, from(#03439c), to(#e8e9ed));
+   background: -webkit-linear-gradient(top, #03439c, #e8e9ed);
+   background: -moz-linear-gradient(top, #03439c, #e8e9ed);
+   background: -ms-linear-gradient(top, #03439c, #e8e9ed);
+   background: -o-linear-gradient(top, #03439c, #e8e9ed);
+   padding: 10px 20px;
+   -webkit-border-radius: 7px;
+   -moz-border-radius: 7px;
+   border-radius: 7px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 17px;
+   font-weight: bold;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   width: 250px;
+   
+}
+
+.choicebutton:hover {
+   border-top-color: #b51b4e;
+   background: #b51b4e;
+   color: #ccc;
+   }
+
+.choicebutton:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
+
+/* RIGHT OR WRONG FEEDBACK*/
+.feedback{	
+	text-align: center;
+	height: 20px;
+}
+
+/* INFO ABOUT FLAG*/
+.info{	
+	height: 65px;
+	text-align: center;
+	width: 400px;
+	margin: 0 auto;
+
+}
+
+
+
